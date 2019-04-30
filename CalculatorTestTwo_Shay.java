@@ -27,3 +27,4 @@ public class CalculatorTestTwo_Shay {
             Assert.fail("Проверьте правильность входных значений");
         }
     }
+}
