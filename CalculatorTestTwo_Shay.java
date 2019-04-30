@@ -19,7 +19,7 @@ public class CalculatorTestTwo_Shay {
 			/* Запуск программы */
             lc.calculate();
 			/* Сравнение результата, выдаваемого программой, с ожидаемым значением */
-            Assert.assertTrue("115".equals(lc.fields[1].getText()));
+            Assert.assertTrue("110".equals(lc.fields[1].getText()));
         }
 		/* Код, выполняемый при возникновении ошибок в процессе выполнения теста */
         catch(Exception e){
@@ -27,4 +27,3 @@ public class CalculatorTestTwo_Shay {
             Assert.fail("Проверьте правильность входных значений");
         }
     }
-}
