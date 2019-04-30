@@ -17,7 +17,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.EtchedBorder;
 
 /* Главный класс, реализующий интерфейс ActionListener, который отвечает за обработку события нажатия на кнопку */
-public class Calculator implements ActionListener{
+public class Calculat implements ActionListener{
 	/* Главное окно */
     JFrame frame = new JFrame("Подсчет количества символов в тексте");
 	/* Панель с метками */
